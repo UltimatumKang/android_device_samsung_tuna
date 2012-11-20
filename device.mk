@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
         Nfc \
         Tag
 
+# LED brightness property
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.sys.led-brightness=31
+
+# Charging LED property
+PRODUCT_PROPERTY_OVERRIDES += \
+        persist.sys.enable-charging-led=0
+
 # Gnexus Parts
 PRODUCT_PACKAGES += \
     GNexusParts
