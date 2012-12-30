@@ -84,6 +84,11 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
 	media.aac_51_output_enabled=true
 
+# Tiny Kernel Modules
+PRODUCT_COPY_FILES += \
+        device/samsung/tuna/prebuilt/ffc:system/xbin/ffc \
+        device/samsung/tuna/prebuilt/zram:system/xbin/zram
+
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
