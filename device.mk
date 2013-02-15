@@ -64,8 +64,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	device/samsung/tuna/prebuilt/kernel:kernel \
         device/samsung/tuna/prebuilt/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-        device/samsung/tuna/prebuilt/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
-        device/samsung/tuna/prebuilt/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
         device/samsung/tuna/prebuilt/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
 
 PRODUCT_COPY_FILES += \
