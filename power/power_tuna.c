@@ -88,7 +88,7 @@ static void tuna_power_init(struct power_module *module)
      */
 
     sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq",
-                "810000");
+                "920000");
 }
 
 static int boostpulse_open(struct tuna_power_module *tuna)
