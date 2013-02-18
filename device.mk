@@ -62,9 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel prebuilts
 PRODUCT_COPY_FILES += \
-	device/samsung/tuna/prebuilt/kernel:kernel \
-        device/samsung/tuna/prebuilt/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-        device/samsung/tuna/prebuilt/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
+	device/samsung/tuna/prebuilt/kernel:kernel
 
 PRODUCT_COPY_FILES += \
 	device/samsung/tuna/init.tuna.rc:root/init.tuna.rc \
