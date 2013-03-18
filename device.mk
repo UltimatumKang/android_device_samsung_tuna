@@ -107,9 +107,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
         persist.sys.enable-charging-led=0
 
-# Trickster Mod
+# Gnexus Parts
 PRODUCT_PACKAGES += \
-    TM
+    GNexusParts
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
