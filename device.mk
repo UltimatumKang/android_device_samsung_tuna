@@ -62,9 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel prebuilts
 PRODUCT_COPY_FILES += \
-	device/samsung/tuna/prebuilt/kernel:kernel \
-	device/samsung/tuna/prebuilt/ffc:system/xbin/ffc \
-        device/samsung/tuna/prebuilt/zram:system/xbin/zram
+	device/samsung/tuna/prebuilt/kernel:kernel
 
 PRODUCT_COPY_FILES += \
 	device/samsung/tuna/init.tuna.rc:root/init.tuna.rc \
