@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">갤럭시 넥서스 설정</string>
+
+    <string name="category_display_title">디스플레이</string>
+    <string name="color_tuning_title_head">색상 멀티플러 조정</string>
+    <string name="color_tuning_summary_head">화면 컬러의 멀티플러를 조정합니다.</string>
+    <string name="gamma_tuning_title_head">색상 감마값 조정</string>
+    <string name="gamma_tuning_summary_head">색상의 감마값을 조정합니다.</string>
+    <string name="color_hack_presets_title_head">색상 프리셋</string>
+    <string name="color_hack_presets_summary_head">유저들에 의해 시험된 몇몇 프리셋을 설정합니다.</string>
+    <string name="color_red_title">빨강</string>
+    <string name="color_green_title">초록</string>
+    <string name="color_blue_title">파랑</string>
+    <string name="gamma1_title">기본값</string>
+    <string name="gamma2_title">CM 설정</string>
+    <string name="gamma3_title">자연값</string>
+    <string name="color1_title">기본값</string>
+    <string name="color2_title">CM 설정</string>
+    <string name="color3_title">자연값</string>
+    <string name="color_warning">200보다 높은값을 권장합니다.</string>
+    <string name="gamma_dss_title">DSS 감마 설정</string>
+
+    <string name="category_hardware_title">하드웨어</string>
+    <string name="vibrator_tuning_title_head">진동 값 조정</string>
+    <string name="vibrator_tuning_summary_head">진동 피드백의 강도를 조정합니다.</string>
+
+    <string name="vibrator_title">진동 %</string>
+    <string name="vibrator_default_title">기본값</string>
+    <string name="vibrator_test_title">테스트</string>
+
+    <string name="preset1_default_title">기본값</string>
+    <string name="preset2_default_title">최대값</string>
+    <string name="preset3_default_title">실제값</string>
+    <string name="preset4_default_title">따뜻하게</string>
+    <string name="preset5_default_title">차갑게</string>
+    <string name="preset6_default_title">자연값</string>
+    <string name="credits_presets">저작자 : ale.landra91, cpaixao, provolinoo</string>
+
+    <string name="category_touchkey_title">Touch Keys</string>
+    <string name="touchkey_notification_title_head">Backlight Notifications</string>
+    <string name="touchkey_notification_summary_head">The touch key backlights will turn on when there is a notification</string>
+
+    <string name="category_radio_title">라디오</string>
+    <string name="hspa_title_head">HSPA</string>
+    <string name="hspa_summary_head">Enable HSDPA/HSUPA</string>
+
+    <string name="category_gpu_title">GPU</string>
+    <string name="gpu_overclock_title">클럭</string>
+
+</resources>
