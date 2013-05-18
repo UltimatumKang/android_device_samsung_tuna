@@ -62,7 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel prebuilts
 PRODUCT_COPY_FILES += \
-	device/samsung/tuna/prebuilt/kernel:kernel
+	$(LOCAL_DIR)/kernel:kernel
 
 PRODUCT_COPY_FILES += \
 	device/samsung/tuna/init.tuna.rc:root/init.tuna.rc \
