@@ -39,10 +39,10 @@ BOARD_KERNEL_BASE := 0x80000000
 # BOARD_KERNEL_CMDLINE :=
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := tuna_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/tuna
+#TARGET_KERNEL_CONFIG := tuna_defconfig
+#TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 
-TARGET_PREBUILT_KERNEL := device/samsung/tuna/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := $(LOCAL_DIR)/kernel
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
@@ -95,8 +95,6 @@ TARGET_BOOTANIMATION_USE_RGB565 := true
 
 BOARD_LIB_DUMPSTATE := libdumpstate.tuna
 BOARD_USES_SECURE_SERVICES := true
-
-TARGET_EXTRA_CFLAGS := $(call cc-ifversion, -ge, 46, $(call cc-option,-mtune=cortex-a9,$(call cc-option,-mtune=cortex-a8)) $(call cc-option,-mcpu=cortex-a9,$(call cc-option,-mcpu=cortex-a8)))
 
 # VolumeHawtness
 BOARD_HAS_SAMSUNG_VOLUME_BUG := true  #ytf not
