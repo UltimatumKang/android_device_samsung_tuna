@@ -39,7 +39,7 @@ BOARD_KERNEL_BASE := 0x80000000
 # BOARD_KERNEL_CMDLINE :=
 
 ## Define kernel config for inline building
-TARGET_KERNEL_CONFIG := tuna_ak_defconfig
+TARGET_KERNEL_CONFIG := amperific_tuna_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 
 #TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
